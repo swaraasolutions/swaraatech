@@ -1,0 +1,15 @@
+{
+  "name": "swaraatech/spacesmanager",
+  "description": "Package to move the files from block storage to spaces",
+  "type": "library",
+  "require": {
+    "league/flysystem-aws-s3-v3": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Varun Varde",
+      "email": "varun@swaraasolutions.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
