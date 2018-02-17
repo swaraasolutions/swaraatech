@@ -1,8 +1,9 @@
 <?php
 
-namespace SwaraaTech\Spacesmanager;
+namespace SwaraaTech;
 
 use Illuminate\Support\ServiceProvider;
+use SwaraaTech\Commands\SpaceCommand;
 
 class SpacesServiceProvider extends ServiceProvider {
 	/**
@@ -11,7 +12,13 @@ class SpacesServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot() {
-		include __DIR__ . "/routes.php";
+//		include __DIR__ . "/routes.php";
+		$this->loadRoutesFrom( __DIR__ . '/routes.php' );
+		$this->loadViewsFrom( __DIR__ . '/views', 'spaces' );
+		$this->loadMigrationsFrom( __DIR__ . "/migrations" );
+		$this->commands( [
+			SpaceCommand::class,
+		] );
 	}
 
 	/**
