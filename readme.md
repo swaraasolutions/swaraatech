@@ -84,8 +84,7 @@ SM_MANAGE_404=true
 `SM_MANAGE_404` - If you are not willing to manage the 404 errors using the plugin turn this option to false
 
 
-### Developed at Digital Ocean Ahmedabad Hackathon.
+### Developed with love by Swaraa Tech Solutions LLP Team at Digital Ocean Ahmedabad Hackathon.
 
 Thanks to the wonderful support from DO Team.
 
-**Developed with love by Swaraa Tech Solutions LLP**
