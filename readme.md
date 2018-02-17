@@ -15,7 +15,7 @@ Or manually by modifying `composer.json` file:
 ``` json
 {
     "require": {
-        "swaraatech/spacesmanager": "dev-master"
+        "swaraatech/spacesmanager": "v1.0.0"
     }
 }
 ```
