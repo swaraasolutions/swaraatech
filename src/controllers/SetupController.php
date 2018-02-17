@@ -77,8 +77,9 @@ class SetupController extends Controller {
 				$file = SpacesManager::where( "moved_file", $slug )->first();
 				if ( $file ) {
 					$test = Storage::disk( "spaces" )->get( $slug );
+					$mime = Storage::disk( "spaces" )->mimeType( $slug );
 
-					return response( $test, 200 )->header( 'Content-Type', 'image/jpeg' );
+					return response( $test, 200 )->header( 'Content-Type', $mime );
 				} else {
 					return response( "", 404 );
 				}
