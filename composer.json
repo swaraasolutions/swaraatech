@@ -9,6 +9,14 @@
     {
       "name": "Varun Varde",
       "email": "varun@swaraasolutions.com"
+    },
+    {
+      "name": "Arvind Sisodia",
+      "email": "arvind@swaraasolutions.com"
+    },
+    {
+      "name": "Jayesh Mangaroliya",
+      "email": "jayeshm@swaraasolutions.com"
     }
   ],
   "minimum-stability": "dev",
