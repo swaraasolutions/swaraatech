@@ -12,7 +12,7 @@ class SpaceCommand extends Command {
 	 *
 	 * @var string
 	 */
-	protected $signature = 'varun:run';
+	protected $signature = 'spaces:run';
 
 	/**
 	 * The console command description.
@@ -38,6 +38,6 @@ class SpaceCommand extends Command {
 	public function handle() {
 		$setupController = new SetupController();
 		$setupController->index();
-		$this->info( "Test" );
+//		$this->info( "Test" );
 	}
 }
